@@ -1,0 +1,23 @@
+.greenButton{
+    color: #42d392 !important;
+    background: transparent;
+    border: 1px solid #42d392 !important;
+    border-radius: 6px !important;
+}
+.greenButton:hover{
+    color: #1a1a1a !important;
+    background: #42d392 !important;
+    border: 1px solid transparent !important;
+}
+
+.greenButtonFull{
+    color: #1a1a1a !important;
+    background: #42d392 !important;
+    border: 1px solid transparent !important;
+    border-radius: 6px;
+}
+.greenButtonFull:hover{
+    color: #42d392 !important;
+    background: transparent !important;
+    border: 1px solid #42d392 !important;
+}

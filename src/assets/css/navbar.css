@@ -1,29 +1,41 @@
-.navbar{
+.navbarCustom {
     background-color: #1a1a1a;
 }
 
-.navbar nav{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.navbarCustom nav ul {
+    padding: 8px 40px 8px 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0.5px solid #fff;
+}
+
+.navbarCustom nav ul li {
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .5s;
+    color: white;
+    cursor: pointer;
+}
+
+.navbarCustom nav ul li:hover {
+    color: #42d392;
+    transition: .5s;
 }
 
 .logo {
     float: left;
 }
+.logoImg {
+    width: 50px;
+    margin-top: -16px;
+    transition: transform .7s ease-in-out;
+}
+.logoImg:hover {
+    transform: rotate(360deg);
+}
 .perfil {
     float: right;
-}
-.navbar nav ul li{
-    display: inline-block;
-    margin: 3px;
-    padding: 10px;
-    font-size: 13px;
-    transition: .5s;
-    color: white;
-}
-
-.navbar nav ul li:hover{
-    color: #42d392;
-    transition: .5s;
 }

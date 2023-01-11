@@ -1,17 +1,16 @@
 <template>
-<div class="navbar">
-    <nav>
-        <ul>
-            <li class="logo">Logo</li>
-            <li>API</li>
-            <li>Playground</li>
-            <li>Ecosystem</li>
-            <li>Componente 3</li>
-            <li class="perfil">LogOut</li>
-            <li class="perfil">Perfil</li>
-        </ul>
-    </nav>
-</div>
+    <div class="navbarCustom">
+        <nav class="center">
+            <ul>
+                <li class="logo"><img class="logoImg" src="../assets/img/skr_icon_green.png" /></li>
+                <li> Proximamente... </li>
+                <li> Proximamente... </li>
+                <li> Proximamente... </li>
+                <li class="btn perfil greenButtonFull"> Salir </li>
+                <li class="btn perfil greenButton"> Perfil </li>
+            </ul>
+        </nav>
+    </div>
 </template>
 
 <script>
