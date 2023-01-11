@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #1a1a1a;
+}
+
+.navbar nav{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+}
+.perfil {
+    float: right;
+}
+.navbar nav ul li{
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    font-size: 13px;
+    transition: .5s;
+    color: white;
+}
+
+.navbar nav ul li:hover{
+    color: #42d392;
+    transition: .5s;
+}
