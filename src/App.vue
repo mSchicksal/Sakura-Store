@@ -21,4 +21,5 @@
   }
   @import './assets/css/base.css';
   @import './assets/css/buttons.css';
+  @import './assets/css/cards.css';
 </style>
