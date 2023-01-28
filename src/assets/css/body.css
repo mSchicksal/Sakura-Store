@@ -1,5 +1,10 @@
 .body {
-    background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+    /* background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff); */
+    padding: 30px;
+}
+
+.body container-fluid {
+    padding: 0;
 }
 
 .section {

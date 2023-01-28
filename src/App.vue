@@ -1,16 +1,21 @@
 <template>
   <navbar></navbar>
   <boDy></boDy>
+  <fooTer></fooTer>
+
 </template>
 
 <script>
-  import navbar from './components/navbar.vue';
-  import boDy from './components/body.vue';
+  import navbar from  './components/base/navbar.vue';
+  import boDy from    './components/base/body.vue';
+  import fooTer from  './components/base/footer.vue';
+
   export default {
     name: 'App',
     components: {
       navbar,
-      boDy
+      boDy,
+      fooTer
     }
 }
 </script>
